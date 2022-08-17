@@ -1,3 +1,10 @@
+/*===================== JQuery ======================*/
+$(document).ready(function(){
+    $('.slider').slick({
+      dots:true
+    });
+});
+
 /*==================== SHOW MENU ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),

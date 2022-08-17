@@ -2,8 +2,12 @@
 //         './sass/abstracts/variables';
 
 @import 
-        // './sass/base/reset',
-        './scss/base/base';
+'./sass/base/reset',
+'./scss/base/base';
+
+@import
+        './scss/vendors/normalize',
+        './scss/vendors/slick';
 
 // @import 
 //         './sass/components/buttons';
@@ -14,3 +18,6 @@
 //         './sass/layout/header',
 //         './sass/layout/main',
 //         './sass/layout/footer';
+
+@import 
+        './scss/themes/slick-themes';
